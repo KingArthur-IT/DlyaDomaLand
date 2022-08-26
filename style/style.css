@@ -105,6 +105,11 @@ body {
   background: #4862de;
 }
 
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .support-head {
   min-height: 100vh;
   display: -webkit-box;
@@ -201,4 +206,97 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 18px;
+}
+
+.support-advantages__title {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.support-advantages__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px;
+  background: #5a75f8;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  -webkit-box-shadow: 0px 0px 8px 0px white inset;
+          box-shadow: 0px 0px 8px 0px white inset;
+}
+
+.support-advantages__card-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 24px;
+}
+
+.support-advantages__card-hero {
+  color: #fff;
+}
+
+.support-advantages__card-title {
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.support-consult {
+  background: #5a75f8;
+}
+
+.support-consult__title {
+  color: #fff;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.support-consult__btn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0px 0px 9px 4px rgba(255, 255, 255, 0.12);
+          box-shadow: 0px 0px 9px 4px rgba(255, 255, 255, 0.12);
+  margin: auto;
+}
+
+.support-consult__btn:hover {
+  -webkit-box-shadow: 0px 0px 9px 10px rgba(255, 255, 255, 0.12);
+          box-shadow: 0px 0px 9px 10px rgba(255, 255, 255, 0.12);
+}
+
+.support-news__title {
+  text-align: center;
+}
+
+.support-news__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.support-news__card {
+  margin: 12px;
+  background: #f8f9ff;
+  width: calc(100%/4 - 24px);
+}
+
+.support-news__card-img {
+  width: 100%;
+}
+
+.support-news__card-hero {
+  padding: 12px;
+}
+
+.support-news__card-title {
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+  color: #000;
 }
