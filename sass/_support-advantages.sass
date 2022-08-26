@@ -10,6 +10,12 @@
         border-radius: 12px
         margin-bottom: 24px
         box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 1.0) inset
+        opacity: 0
+        transform: translateX(-100%)
+        transition: opacity 1s ease-in, transform 1s ease-in
+        &.anim-active
+            opacity: 1
+            transform: translateX(0%)
         &-img
             width: 100px
             height: 100px

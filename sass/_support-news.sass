@@ -6,7 +6,6 @@
         flex-wrap: wrap
     &__card
         margin: 12px
-        background: $bg-color
         width: calc(100%/4 - 24px)
         &-img
             width: 100%
@@ -17,4 +16,7 @@
             font-weight: bold
             display: block
             color: #000
+            transition: color .3s ease-in
+            &:hover
+                color: $secondary
         &-date
